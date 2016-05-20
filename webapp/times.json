@@ -1,0 +1,73 @@
+{
+    "projectTimes":[  {
+    "date": "2016/05/12",
+    "project": "quis ut et",
+    "duration": 3,
+    "comment": "do adipisicing eiusmod magna laboris ex",
+    "status":"In Bearbeitung"
+  },
+  {
+    "date": "2016/05/07",
+    "project": "quis ut et",
+    "duration": 3,
+    "comment": "do adipisicing eiusmod magna laboris ex",
+    "status":"In Bearbeitung"
+  },
+  {
+    "date": "2016/05/05",
+    "project": "labore in exercitation",
+    "duration": 7,
+    "comment": "do culpa consectetur nisi in ea",
+     "status":"In Bearbeitung"
+  },
+  {
+    "date": "2016/05/06",
+    "project": "cupidatat fugiat nisi",
+    "duration": 2,
+    "comment": "cupidatat proident nostrud et reprehenderit reprehenderit",
+     "status":"In Bearbeitung"
+  },
+  {
+    "date": "2016/05/05",
+    "project": "ea fugiat amet",
+    "duration": 7,
+    "comment": "do eiusmod adipisicing mollit magna do",
+    "status":"Genehmigt"
+  },
+  {
+    "date": "2016/05/04",
+    "project": "minim cupidatat deserunt",
+    "duration": 1,
+    "comment": "deserunt officia reprehenderit sint sint ad",
+     "status":"Genehmigt"
+  },
+  {
+    "date": "2016/05/04",
+    "project": "quis ut velit",
+    "duration": 1,
+    "comment": "voluptate dolore veniam ea consequat duis",
+     "status":"In Bearbeitung"
+  },
+  {
+    "date": "2016/05/03",
+    "project": "esse culpa tempor",
+    "duration": 8,
+    "comment": "ea id excepteur occaecat eiusmod dolore",
+     "status":"Genehmigt"
+  },
+  {
+    "date": "2016/05/02",
+    "project": "nulla nisi velit",
+    "duration": 7,
+    "comment": "duis sunt deserunt Lorem cillum laborum",
+     "status":"Genehmigt"
+  },
+  {
+    "date": "2016/05/02",
+    "project": "nisi dolore aliqua",
+    "duration": 3,
+    "comment": "velit aute commodo minim proident anim",
+     "status":"Genehmigt"
+  }]
+    
+}

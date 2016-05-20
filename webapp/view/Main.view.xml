@@ -1,0 +1,64 @@
+<mvc:View controllerName="com.hagebau.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	xmlns:sap.me="sap.me">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<sap.me:Calendar id="weeklyCalendar" singleRow="true" weeksPerRow="2" design="Approval" tapOnDate="onTapOnDate" changeRange="onChangeRange"
+						hideNavControls="false"></sap.me:Calendar>
+					<Panel>
+						<content>
+							<Table id="timesTable" items="{path: 'times>/projectTimes',sorter: { path: 'times>date', descending: true }}" headerText="{i18n>tableTitle}"
+								mode="MultiSelect">
+								<columns>
+									<Column mergeDuplicates="true" id="dateColumn">
+										<header>
+											<Text text="Datum"/>
+										</header>
+									</Column>
+									<Column id="projectColumn">
+										<header>
+											<Text text="Projekt"/>
+										</header>
+									</Column>
+									<Column demandPopin="true" id="durationColumn">
+										<header>
+											<Text text="Dauer"/>
+										</header>
+									</Column>
+									<Column demandPopin="true" id="commentColumn">
+										<header>
+											<Text text="Kommentare"/>
+										</header>
+									</Column>
+									<Column demandPopin="true" id="statusColumn">
+										<header>
+											<Text text="Status"/>
+										</header>
+									</Column>
+								</columns>
+								<ColumnListItem>
+									<Text text="{ path: 'times>date', type: 'sap.ui.model.type.Date', formatOptions:{ style: 'medium', source: {pattern: 'yyyy/MM/dd'} } }"/>
+									<Input showSuggestion="true" showValueHelp="true" value="{times>project}"></Input>
+									<TimePicker value="{times>duration}"></TimePicker>
+									<TextArea value="{times>comment}"/>
+									<ObjectNumber number='{times>status}' state="{path:'times>status', formatter:'com.hagebau.model.Formatter.processState'}"/>
+								</ColumnListItem>
+							</Table>
+						</content>
+					</Panel>
+				</content>
+				<footer>
+					<Toolbar>
+						<Button icon="sap-icon://add" text="Zeile Hinzufügen" press="onAddButtonPress"></Button>
+						<Button icon="sap-icon://delete" text="Zeile Löschen" press="onDeleteButtonPress"></Button>
+						<ToolbarSpacer/>
+						<Button icon="sap-icon://save" text="Anlegen" type="Accept" press="onAcceptButtonPress"></Button>
+						<Button icon="sap-icon://duplicate" text="Kopieren"></Button>
+						<Button icon="sap-icon://delete" text="Löschen" type="Reject"></Button>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
