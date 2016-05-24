@@ -1,0 +1,642 @@
+{
+	"projektStruktur":{
+	"children": [{
+			"lfdNr": "573f115edb260c95e3808c4c",
+			"bezeichnung": "INVOIC.IN",
+			"children": [{
+				"lfdNr": "573f115e33afb6074b155714",
+				"bezeichnung": "Tagesgeschaeft",
+				"children": [{
+					"lfdNr": "573f115ec8fe236dbf0fda61",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 682,
+						"bezeichnung": "INI_TA_ZT_Einrichtung neues Partnersyste"
+					}, {
+						"pspId": 216,
+						"bezeichnung": "INI_TA_ZT_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 962,
+						"bezeichnung": "INI_TA_ZT_Erneute Datenausgabe"
+					}, {
+						"pspId": 460,
+						"bezeichnung": "INI_TA_ZT_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 986,
+						"bezeichnung": "INI_TA_ZT_Stammdatenpflege"
+					}, {
+						"pspId": 845,
+						"bezeichnung": "INI_TA_ZT_Wartung"
+					}, {
+						"pspId": 752,
+						"bezeichnung": "INI_TA_ZT_Entwicklung"
+					}, {
+						"pspId": 739,
+						"bezeichnung": "INI_TA_ZT_DB-Support"
+					}]
+				}]
+			}, {
+				"lfdNr": "573f115eb8f68c412f500149",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e8380c192c1c3a33b",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 387,
+						"bezeichnung": "INI_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 223,
+						"bezeichnung": "INI_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 570,
+						"bezeichnung": "INI_PR_EDIMIG_Test"
+					}, {
+						"pspId": 607,
+						"bezeichnung": "INI_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		}, 
+		{
+			"lfdNr": "573f115e5e2856ceef8e11ae",
+			"bezeichnung": "ORDERS",
+			"children": [{
+				"lfdNr": "573f115e9cc34fb2c47c708a",
+				"bezeichnung": "Tagesgeschaeft",
+				"children": [{
+					"lfdNr": "573f115ed5845075cc5a7f10",
+					"bezeichnung": "Einzelhandel",
+					"children": [{
+						"pspId": 991,
+						"bezeichnung": "ORD_TA_EH_Einrichtung neues Partnersyste"
+					}, {
+						"pspId": 776,
+						"bezeichnung": "ORD_TA_EH_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 863,
+						"bezeichnung": "ORD_TA_EH_Stammdatenpflege"
+					}, {
+						"pspId": 591,
+						"bezeichnung": "ORD_TA_EH_Anbindung Non-prohibis System"
+					}, {
+						"pspId": 795,
+						"bezeichnung": "ORD_TA_EH_Anbindung prohibis System"
+					}, {
+						"pspId": 561,
+						"bezeichnung": "ORD_TA_EH_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 461,
+						"bezeichnung": "ORD_TA_EH_DB-Support"
+					}, {
+						"pspId": 845,
+						"bezeichnung": "ORD_TA_EH_Wartung"
+					}, {
+						"pspId": 693,
+						"bezeichnung": "ORD_TA_EH_Entwicklung"
+					}]
+				}, {
+					"lfdNr": "573f115e1897dc0a07a6c29b",
+					"bezeichnung": "Fachhandel",
+					"children": [{
+						"pspId": 210,
+						"bezeichnung": "ORD_TA_FH_Einrichtung neues Partnersyste"
+					}, {
+						"pspId": 411,
+						"bezeichnung": "ORD_TA_FH_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 978,
+						"bezeichnung": "ORD_TA_FH_Stammdatenpflege"
+					}, {
+						"pspId": 904,
+						"bezeichnung": "ORD_TA_FH_Anbindung Non-prohibis System"
+					}, {
+						"pspId": 300,
+						"bezeichnung": "ORD_TA_FH_Anbindung prohibis System"
+					}, {
+						"pspId": 362,
+						"bezeichnung": "ORD_TA_FH_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 859,
+						"bezeichnung": "ORD_TA_FH_DB-Support"
+					}, {
+						"pspId": 414,
+						"bezeichnung": "ORD_TA_FH_Wartung"
+					}, {
+						"pspId": 203,
+						"bezeichnung": "ORD_TA_FH_Entwicklung"
+					}]
+				}]
+			}, {
+				"lfdNr": "573f115ec5d4b4792694c95a",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115ef021a7f5186fd917",
+					"bezeichnung": "Einzelhandel",
+					"children": [{
+						"pspId": 901,
+						"bezeichnung": "ORD_PR_EH_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115e01331a22ef4305b0",
+					"bezeichnung": "Fachhandel",
+					"children": [{
+						"pspId": 642,
+						"bezeichnung": "ORD_PR_FH_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115ebabeb89725ade147",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 931,
+						"bezeichnung": "ORD_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 253,
+						"bezeichnung": "ORD_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 421,
+						"bezeichnung": "ORD_PR_EDIMIG_Test"
+					}, {
+						"pspId": 311,
+						"bezeichnung": "ORD_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		}, {
+			"lfdNr": "573f115e883ffdcbbde23feb",
+			"bezeichnung": "INVOIC.OUT",
+			"children": [{
+				"lfdNr": "573f115ea951aeee26af9d57",
+				"bezeichnung": "Tagesgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e0569422859f21d7e",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 821,
+						"bezeichnung": "INO_TA_ZT_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 562,
+						"bezeichnung": "INO_TA_ZT_Stammdatenpflege"
+					}, {
+						"pspId": 544,
+						"bezeichnung": "INO_TA_ZT_Anbindung Non-prohibis System"
+					}, {
+						"pspId": 115,
+						"bezeichnung": "INO_TA_ZT_Anbindung prohibis System"
+					}, {
+						"pspId": 619,
+						"bezeichnung": "INO_TA_ZT_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 346,
+						"bezeichnung": "INO_TA_ZT_Erneute Datenausgabe"
+					}, {
+						"pspId": 434,
+						"bezeichnung": "INO_TA_ZT_DB-Support"
+					}, {
+						"pspId": 791,
+						"bezeichnung": "INO_TA_ZT_Wartung"
+					}, {
+						"pspId": 929,
+						"bezeichnung": "INO_TA_ZT_Entwicklung"
+					}]
+				}]
+			}, {
+				"lfdNr": "573f115e0bfa9a3a51e4cb1a",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e1cc22fc58acb5f11",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 874,
+						"bezeichnung": "INO_PR_ZT_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115e920d0c08cd50c3b9",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 346,
+						"bezeichnung": "INO_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 135,
+						"bezeichnung": "INO_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 786,
+						"bezeichnung": "INO_PR_EDIMIG_Test"
+					}, {
+						"pspId": 206,
+						"bezeichnung": "INO_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		}, {
+			"lfdNr": "573f115e32f05e10bf7b85a1",
+			"bezeichnung": "REMADV",
+			"children": [{
+				"lfdNr": "573f115edecf3ecc94562cfc",
+				"bezeichnung": "Tagesgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e89e15c6bfd618a2b",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 130,
+						"bezeichnung": "REM_TA_ZT_Einrichtung neues Partnersyste"
+					}, {
+						"pspId": 730,
+						"bezeichnung": "REM_TA_ZT_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 746,
+						"bezeichnung": "REM_TA_ZT_Stammdatenpflege"
+					}, {
+						"pspId": 448,
+						"bezeichnung": "REM_TA_ZT_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 588,
+						"bezeichnung": "REM_TA_ZT_Erneute Datenausgabe"
+					}, {
+						"pspId": 254,
+						"bezeichnung": "REM_TA_ZT_DB-Support"
+					}, {
+						"pspId": 264,
+						"bezeichnung": "REM_TA_ZT_Wartung"
+					}, {
+						"pspId": 339,
+						"bezeichnung": "REM_TA_ZT_Entwicklung"
+					}]
+				}]
+			}, {
+				"lfdNr": "573f115e0bfc24ca12f9eb4e",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e0dc15e40fe7321bb",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 385,
+						"bezeichnung": "REM_PR_ZT_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115e0c8987d38ee21450",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 483,
+						"bezeichnung": "REM_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 387,
+						"bezeichnung": "REM_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 581,
+						"bezeichnung": "REM_PR_EDIMIG_Test"
+					}, {
+						"pspId": 614,
+						"bezeichnung": "REM_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		}, {
+			"lfdNr": "573f115e26922e379cd5276d",
+			"bezeichnung": "Reklamationen",
+			"children": [{
+				"lfdNr": "573f115ec41e64b920c14fae",
+				"bezeichnung": "Tagesgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e400a5d026a5aca0f",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 432,
+						"bezeichnung": "REK_TA_ZT_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 660,
+						"bezeichnung": "REK_TA_ZT_DB-Support"
+					}, {
+						"pspId": 736,
+						"bezeichnung": "REK_TA_ZT_Wartung"
+					}, {
+						"pspId": 265,
+						"bezeichnung": "REK_TA_ZT_Entwicklung"
+					}]
+				}]
+			}, {
+				"lfdNr": "573f115ea2859cf7ce1ddfb4",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e3af7e1ddd457bd25",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 603,
+						"bezeichnung": "REK_PR_ZT_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115eba35f2e9558b9d7a",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 312,
+						"bezeichnung": "REK_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 777,
+						"bezeichnung": "REK_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 371,
+						"bezeichnung": "REK_PR_EDIMIG_Test"
+					}, {
+						"pspId": 119,
+						"bezeichnung": "REK_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		}, {
+			"lfdNr": "573f115e474de0a9802164d7",
+			"bezeichnung": "SLSRPT",
+			"children": [{
+				"lfdNr": "573f115e8c65e16aa4057b42",
+				"bezeichnung": "Tagesgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e94d6112d8c37cd7e",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 530,
+						"bezeichnung": "SLS_TA_ZT_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 494,
+						"bezeichnung": "SLS_TA_ZT_DB-Support"
+					}, {
+						"pspId": 152,
+						"bezeichnung": "SLS_TA_ZT_Wartung"
+					}, {
+						"pspId": 720,
+						"bezeichnung": "SLS_TA_ZT_Entwicklung"
+					}]
+				}]
+			}, {
+				"lfdNr": "573f115ec54bd01175d07af4",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115ec8ed309041ee08ee",
+					"bezeichnung": "Zentrale",
+					"children": [{
+						"pspId": 705,
+						"bezeichnung": "SLS_PR_ZT_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115e5c51d8667ea5f130",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 839,
+						"bezeichnung": "SLS_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 805,
+						"bezeichnung": "SLS_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 643,
+						"bezeichnung": "SLS_PR_EDIMIG_Test"
+					}, {
+						"pspId": 608,
+						"bezeichnung": "SLS_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		}, {
+			"lfdNr": "573f115ec8625775ed66fee5",
+			"bezeichnung": "DESADV",
+			"children": [{
+				"lfdNr": "573f115e292aca5e29943a68",
+				"bezeichnung": "Tagesgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e7ac46b884f00ca33",
+					"bezeichnung": "Einzelhandel",
+					"children": [{
+						"pspId": 615,
+						"bezeichnung": "DES_TA_EH_Einrichtung neues Partnersyste"
+					}, {
+						"pspId": 944,
+						"bezeichnung": "DES_TA_EH_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 707,
+						"bezeichnung": "DES_TA_EH_Stammdatenpflege"
+					}, {
+						"pspId": 455,
+						"bezeichnung": "DES_TA_EH_Anbindung Non-prohibis System"
+					}, {
+						"pspId": 479,
+						"bezeichnung": "DES_TA_EH_Anbindung prohibis System"
+					}, {
+						"pspId": 856,
+						"bezeichnung": "DES_TA_EH_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 856,
+						"bezeichnung": "DES_TA_EH_Erneute Datenausgabe"
+					}, {
+						"pspId": 575,
+						"bezeichnung": "DES_TA_EH_DB-Support"
+					}, {
+						"pspId": 260,
+						"bezeichnung": "DES_TA_EH_Wartung"
+					}, {
+						"pspId": 505,
+						"bezeichnung": "DES_TA_EH_Entwicklung"
+					}]
+				}, {
+					"lfdNr": "573f115e71a3129effe20f1e",
+					"bezeichnung": "Fachhandel",
+					"children": [{
+						"pspId": 784,
+						"bezeichnung": "DES_TA_FH_Einrichtung neues Partnersyste"
+					}, {
+						"pspId": 581,
+						"bezeichnung": "DES_TA_FH_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 760,
+						"bezeichnung": "DES_TA_FH_Stammdatenpflege"
+					}, {
+						"pspId": 319,
+						"bezeichnung": "DES_TA_FH_Anbindung Non-prohibis System"
+					}, {
+						"pspId": 993,
+						"bezeichnung": "DES_TA_FH_Anbindung prohibis System"
+					}, {
+						"pspId": 685,
+						"bezeichnung": "DES_TA_FH_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 632,
+						"bezeichnung": "DES_TA_FH_Erneute Datenausgabe"
+					}, {
+						"pspId": 377,
+						"bezeichnung": "DES_TA_FH_DB-Support"
+					}, {
+						"pspId": 742,
+						"bezeichnung": "DES_TA_FH_Wartung"
+					}, {
+						"pspId": 895,
+						"bezeichnung": "DES_TA_FH_Entwicklung"
+					}]
+				}]
+			}, {
+				"lfdNr": "573f115ed0ab78ae38696983",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115eeced5bc039a0db96",
+					"bezeichnung": "Einzelhandel",
+					"children": [{
+						"pspId": 181,
+						"bezeichnung": "DES_PR_EH_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115e9aef31e66588231e",
+					"bezeichnung": "Fachhandel",
+					"children": [{
+						"pspId": 450,
+						"bezeichnung": "DES_PR_FH_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115e6e4971e86e47c097",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 516,
+						"bezeichnung": "DES_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 876,
+						"bezeichnung": "DES_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 448,
+						"bezeichnung": "DES_PR_EDIMIG_Test"
+					}, {
+						"pspId": 160,
+						"bezeichnung": "DES_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		}, {
+			"lfdNr": "573f115e91f081ad1d2c0e37",
+			"bezeichnung": "ORDRSP",
+			"children": [{
+				"lfdNr": "573f115ed6dfd7d9da85f8a2",
+				"bezeichnung": "Tagesgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e6f85f6ce857d0bed",
+					"bezeichnung": "Einzelhandel",
+					"children": [{
+						"pspId": 336,
+						"bezeichnung": "ORP_TA_EH_Einrichtung neues Partnersyste"
+					}, {
+						"pspId": 216,
+						"bezeichnung": "ORP_TA_EH_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 643,
+						"bezeichnung": "ORP_TA_EH_Stammdatenpflege"
+					}, {
+						"pspId": 745,
+						"bezeichnung": "ORP_TA_EH_Anbindung Non-prohibis System"
+					}, {
+						"pspId": 597,
+						"bezeichnung": "ORP_TA_EH_Anbindung prohibis System"
+					}, {
+						"pspId": 344,
+						"bezeichnung": "ORP_TA_EH_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 120,
+						"bezeichnung": "ORP_TA_EH_Erneute Datenausgabe"
+					}, {
+						"pspId": 508,
+						"bezeichnung": "ORP_TA_EH_DB-Support"
+					}, {
+						"pspId": 937,
+						"bezeichnung": "ORP_TA_EH_Wartung"
+					}, {
+						"pspId": 723,
+						"bezeichnung": "ORP_TA_EH_Entwicklung"
+					}]
+				}, {
+					"lfdNr": "573f115e42c7ac5fae1e4fac",
+					"bezeichnung": "Fachhandel",
+					"children": [{
+						"pspId": 264,
+						"bezeichnung": "ORP_TA_FH_Einrichtung neues Partnersyste"
+					}, {
+						"pspId": 237,
+						"bezeichnung": "ORP_TA_FH_Bereitstellung von Testdaten"
+					}, {
+						"pspId": 129,
+						"bezeichnung": "ORP_TA_FH_Stammdatenpflege"
+					}, {
+						"pspId": 171,
+						"bezeichnung": "ORP_TA_FH_Anbindung Non-prohibis System"
+					}, {
+						"pspId": 164,
+						"bezeichnung": "ORP_TA_FH_Anbindung prohibis System"
+					}, {
+						"pspId": 199,
+						"bezeichnung": "ORP_TA_FH_Belegverarbeitung prüfen"
+					}, {
+						"pspId": 645,
+						"bezeichnung": "ORP_TA_FH_Erneute Datenausgabe"
+					}, {
+						"pspId": 583,
+						"bezeichnung": "ORP_TA_FH_DB-Support"
+					}, {
+						"pspId": 511,
+						"bezeichnung": "ORP_TA_FH_Wartung"
+					}, {
+						"pspId": 756,
+						"bezeichnung": "ORP_TA_FH_Entwicklung"
+					}]
+				}]
+			}, {
+				"lfdNr": "573f115e7828fac98f33d7d3",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115e8767dfede73253fb",
+					"bezeichnung": "Einzelhandel",
+					"children": [{
+						"pspId": 537,
+						"bezeichnung": "ORP_PR_EH_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115eede948a4c1f70be7",
+					"bezeichnung": "Fachhandel",
+					"children": [{
+						"pspId": 972,
+						"bezeichnung": "ORP_PR_FH_Beratung"
+					}]
+				}, {
+					"lfdNr": "573f115ec81514091ca77018",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 852,
+						"bezeichnung": "ORP_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 826,
+						"bezeichnung": "ORP_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 579,
+						"bezeichnung": "ORP_PR_EDIMIG_Test"
+					}, {
+						"pspId": 320,
+						"bezeichnung": "ORP_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		}, {
+			"lfdNr": "573f115eeb1d60d3e5b61b67",
+			"bezeichnung": "FibuZL",
+			"children": [{
+				"lfdNr": "573f115e7df6af4376668982",
+				"bezeichnung": "Projektgeschaeft",
+				"children": [{
+					"lfdNr": "573f115eccce7c2901dbddef",
+					"bezeichnung": "EDIMIG",
+					"children": [{
+						"pspId": 988,
+						"bezeichnung": "FZL_PR_EDIMIG_Konzeption"
+					}, {
+						"pspId": 676,
+						"bezeichnung": "FZL_PR_EDIMIG_Entwicklung"
+					}, {
+						"pspId": 878,
+						"bezeichnung": "FZL_PR_EDIMIG_Test"
+					}, {
+						"pspId": 720,
+						"bezeichnung": "FZL_PR_EDIMIG_Produktivsetzung"
+					}]
+				}]
+			}]
+		
+	}]
+}
+}

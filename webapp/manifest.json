@@ -67,6 +67,10 @@
 			"times": {
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "times.json"
+			},
+			"projects":{
+			    "type": "sap.ui.model.json.JSONModel",
+				"uri": "projects.json"
 			}
 		},
 		"resources": {
